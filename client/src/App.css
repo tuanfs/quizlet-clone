@@ -42,7 +42,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
-  -webkit-text-fill-color: #d9dde8 !important;
+  -webkit-text-fill-color: #303545 !important;
 }
 .slide2 {
   transform: rotateX(-180deg);
