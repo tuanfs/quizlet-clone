@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-primary {
+  @apply text-[#282e3e] font-semibold text-[14px];
+}
+.text-color-primary {
+  @apply text-[#282e3e];
+}
+body {
+  @apply bg-bgColor;
+}
+.section {
+  @apply mt-10 mb-20;
+}
+
+.ReactModal__Content.abc {
+  @apply opacity-40 translate-x-[-100%];
+}
+
+.ReactModal__Content--after-open.abc {
+  @apply opacity-100 translate-x-[0];
+}
+
+.explain-tab-list,
+.keyboard,
+.scroll-none {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+}
+
+.explain-tab-list::-webkit-scrollbar,
+.keyboard::-webkit-scrollbar,
+.scroll-none::-webkit-scrollbar {
+  /* WebKit */
+  @apply w-0 h-0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #d9dde8 !important;
+}
+.slide2 {
+  transform: rotateX(-180deg);
+}
+
+.modal-content-class {
+  @apply w-full sm:w-[600px] relative h-full sm:h-[550px] top-0;
+}
+.modal-content-learn {
+  @apply w-full bottom-0 md:w-[600px] h-screen sm:h-[480px] top-0 md:top-[-100px];
+}
+.modal-content {
+  @apply w-full md:w-[600px] h-full sm:h-[480px] top-0 md:top-[-100px];
+}
+.modal-content-lg {
+  @apply w-full md:w-[800px] h-full sm:h-[310px] top-0 right-0 left-0 bottom-0 fixed rounded-[0px] sm:rounded-[10px] bg-white md:top-[-100px];
+}
+
+.modal-content-share {
+  @apply w-full sm:w-[600px] relative h-full sm:h-[580px] top-0 sm:top-[-100px];
+}
+
+.modal-content-topic {
+  @apply sm:max-w-[610px] h-[100vh] sm:min-w-[375px] w-full;
+}
+.error .error-child {
+  @apply border-[red];
+}
